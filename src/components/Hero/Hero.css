@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Barrio&family=Fruktur&display=swap");
+.hero {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: black;
+  background-image: url();
+  background-size: cover;
+  overflow: hidden;
+}
+
+.info {
+  color: white;
+  font-size: 2rem;
+  height: 70vh;
+  width: 45vw;
+  margin-top: 22vh;
+  border-radius: 10px;
+  color: rgba(241, 232, 232);
+  text-shadow: 2px 2px maroon;
+  font-family: "Barrio";
+}
+
+.image {
+  background-image: url(https://thumbs.dreamstime.com/b/mask-activists-guy-fawkes-used-anonymous-lizard-squad-protesters-65170619.jpg);
+  height: 95vh;
+  width: 40vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8vh;
+  margin-top: -8vh;
+}
+.btn {
+  position: absolute;
+  cursor: pointer;
+  height: 30px;
+  top: 57vh;
+  right: 24vw;
+  width: 55px;
+  border-radius: 5px;
+}
+.hidden {
+  display: none;
+}
+.logo {
+  position: absolute;
+  top: 3vh;
+  width: 2vw;
+  height: 15vh;
+  width: 8vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px 70px 70px;
+  z-index: 10;
+}
+@media screen and (max-width: 770px) {
+  .logo {
+    position: absolute;
+    top: 1vh;
+    width: 2vw;
+    height: 15vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 70px 70px;
+    z-index: 10;
+    left: 35%;
+  }
+  .image {
+    display: none;
+  }
+  .info {
+    color: white;
+    font-size: 1.5rem;
+    height: 70vh;
+    width: 88vw;
+    margin-top: 15vh;
+    border-radius: 10px;
+    color: rgba(241, 232, 232);
+    text-shadow: 2px 2px maroon;
+    font-family: "Barrio";
+  }
+  .type {
+    font-size: 2rem;
+  }
+  .clouds {
+    position: absolute;
+    height: 87%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+}

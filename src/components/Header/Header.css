@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Barrio&family=Fruktur&display=swap");
+nav {
+  height: 8vh;
+  width: 22vw;
+  position: absolute;
+  top: 2vh;
+  left: 31vw;
+  z-index: 10;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+  list-style-type: none;
+  color: silver;
+  font-weight: 800;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  cursor: pointer;
+  margin: 0vw 5vw;
+}
+
+:current(.link) {
+  color: blue;
+}
+@media screen and (max-width: 770px) {
+  nav {
+    height: 13vh;
+    width: 35vw;
+    position: absolute;
+    top: 0vh;
+    left: 64vw;
+    z-index: 10;
+    display: flex;
+    color: black;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

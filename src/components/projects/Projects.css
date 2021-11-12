@@ -1,0 +1,44 @@
+.project-container {
+  z-index: -1;
+  background-color: rgb(245, 237, 237);
+  height: 70vh;
+}
+
+.clouds {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.clouds img {
+  position: absolute;
+  width: 100%;
+  height: 65vh;
+  animation: animate calc(8s * var(--i)) linear infinite;
+  bottom: 0;
+}
+.cloud1 {
+  --i: 1;
+}
+.cloud2 {
+  --i: 2;
+}
+.cloud3 {
+  --i: 3;
+}
+.cloud4 {
+  --i: 4;
+}
+.cloud5 {
+  --i: 5;
+}
+@keyframes animate {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

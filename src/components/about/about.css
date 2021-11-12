@@ -1,0 +1,32 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  overflow: hidden;
+}
+.title {
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+}
+.info1 {
+  height: 75vh;
+  width: 50vw;
+  padding-top: 8vh;
+}
+.title,
+div p {
+  color: silver;
+  font-size: 2rem;
+}
+@media screen and (max-width: 770px) {
+  div p {
+    color: silver;
+    font-size: 1.3rem;
+  }
+}
