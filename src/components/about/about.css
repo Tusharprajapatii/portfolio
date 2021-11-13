@@ -29,4 +29,22 @@ div p {
     color: silver;
     font-size: 1.3rem;
   }
+  .info1 {
+    height: 60vh;
+    width: 72vw;
+    padding-top: 4vh;
+  }
+  .container {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 840px) {
+  div p {
+    font-size: 1.5rem;
+  }
 }
