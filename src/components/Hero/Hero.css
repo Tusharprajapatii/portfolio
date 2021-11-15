@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers&family=Barrio&family=Fruktur&display=swap");
 .hero {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   position: relative;
   display: flex;
@@ -94,7 +94,7 @@
     height: 87%;
     width: 100%;
     top: 0;
-    left: 0;
+    bottom: 0%;
     overflow: hidden;
   }
 }
